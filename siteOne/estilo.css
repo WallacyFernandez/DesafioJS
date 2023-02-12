@@ -13,16 +13,19 @@ header {
    text-shadow: 5px 5px 10px rgba(199, 151, 151, 0.841);
 
 }
-#title{
-   color: white;
-   
-}
+
 nav{
+   
+   text-align: center;
+   color: #fff;
    background-color: black;
    width: 20%;
    height: 100vh;
 
 }
+
+
+
 
 section {
 
