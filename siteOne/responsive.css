@@ -1,0 +1,34 @@
+@media(max-width: 1200px) {
+
+    .conteiner {
+
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media(max-width: 800px) {
+
+    .conteiner {
+
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #title{
+
+        width: 20px;
+        height: 20px;
+        margin-left: -55px;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    img{
+
+        margin-left: -33px;
+    }
+}
+
