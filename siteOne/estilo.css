@@ -14,7 +14,7 @@ header {
 
 }
 
-nav{
+.container{
    
    text-align: center;
    color: #fff;
@@ -24,6 +24,16 @@ nav{
 
 }
 
+#title{
+   padding: 80px;
+}
+
+.barra{
+   background-color: #171616;
+   color: #fff;
+   font-size: 20px;
+   width: 78%;
+}
 
 
 
