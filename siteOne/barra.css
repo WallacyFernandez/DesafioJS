@@ -1,8 +1,17 @@
 .barra{
     background-color: #171616 ;
+    position: absolute;
     height: 70px;
     width: 100%;
-}    
-.menu{
     display: flex;
+    align-items: center;
+    justify-content: space-between;  
+
+}  
+ul{
+    display: flex;
+}  
+a{   
+   margin-left: 1.3rem;
 }
+

@@ -29,7 +29,8 @@ img{
    background-color: black;
    width: 20%;
    height: 100vh;
-
+   position: relative;
+   
 }
 
 #title{
