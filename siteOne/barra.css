@@ -1,0 +1,8 @@
+.barra{
+    background-color: #171616 ;
+    height: 70px;
+    width: 100%;
+}    
+.menu{
+    display: flex;
+}
