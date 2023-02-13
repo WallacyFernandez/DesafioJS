@@ -20,13 +20,21 @@ img{
    margin-right: 5px;
    margin-top: 10px;
 }
+
+#casa{
+
+   background-color: black;
+   position: absolute;
+   top: 170px;
+   left: 53px;
+}
 #img{
    color: black;
    font-size: 220px;
    text-align: cn;
    background: red;
    height: 200px;
-   margin-left: ;
+   margin-left: 1px;
 }
 .container{
    float: left;

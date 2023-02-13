@@ -1,4 +1,5 @@
 .barra{
+    
     background-color: #171616 ;
     position: absolute;
     height: 70px;
@@ -6,6 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;  
+    padding: 23px;
 
 }  
 ul{
@@ -41,6 +43,6 @@ a:hover{
 }
 
 #entrar:hover{
-    font-size: 21px;
+    font-size: 23px;
 }
 
