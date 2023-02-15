@@ -1,7 +1,7 @@
-*{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html, body{height: 100%;}
@@ -23,10 +23,6 @@ h1{
    left: 110px;
    
 }
-
-
-
-
 
 #R{
 
@@ -61,8 +57,11 @@ h1{
   
 }
 
-.sidebar-{
-   padding-bottom: 200px;
+#R {
+  font-size: 10px;
+  position: absolute;
+  top: 10px;
+  left: 115px;
 }
 
 .sidebar__menu{
@@ -107,19 +106,17 @@ h1{
    font-weight: bold;
 }
 
-.sidebar__menu a:hover{
-
-color: #fff;
-
+.sidebar__logo img {
+  max-width: 250px;
+  width: 100%;
 }
 
-p{
-   font-size: 20px;
-}
-.sidebar__menu a.sidebar__menu__selecionado{
-   color: white;
-   background-color: rgb(80, 80, 80);
-   border-radius: 5px;
+.sidebar__menu a {
+  color: rgb(190, 190, 190);
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  cursor: pointer;
 }
 
 .barra{
@@ -156,6 +153,67 @@ p{
    font-size: 23px;
 }
 
-#entrar:hover{
-   padding: 22px;
+p {
+  font-size: 20px;
+}
+.sidebar__menu a.sidebar__menu__selecionado {
+  color: white;
+  background-color: rgb(80, 80, 80);
+  border-radius: 5px;
+}
+
+.barra {
+  background-color: #333;
+  padding: 30px;
+  text-align: center;
+  font-size: 25px;
+}
+#element,
+#barr {
+  padding: 0;
+  color: rgb(104, 103, 103);
+  font-size: 20px;
+  text-decoration: none;
+  list-style: none;
+  display: inline;
+  margin: 20px;
+  margin-left: 1.3rem;
+  cursor: pointer;
+}
+#entrar {
+  color: rgb(21, 21, 21);
+  display: inline;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 40%;
+  cursor: pointer;
+}
+#element:hover {
+  color: white;
+  font-size: 23px;
+}
+
+#entrar:hover {
+  padding: 22px;
+}
+
+
+.mainMusic{
+  display: flex;
+  padding: 1rem 4rem;
+  margin: 1rem;
+  gap: 2rem;
+  border-radius: 10px;
+  
+
+}
+.itenMusic {
+  background-color: #424242;
+  border-radius: 10px;
+  width: 16rem;
+  height: 17rem;
+
+}
+.mainText{
+  padding: 1rem;
 }
