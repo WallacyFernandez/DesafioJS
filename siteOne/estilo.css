@@ -7,6 +7,7 @@
 html,
 body {
   height: 100%;
+  gap: 1rem;
 }
 
 #R{
@@ -177,8 +178,21 @@ p {
 
 
 .mainMusic{
-  background-color: #333;
   display: flex;
-  padding: 1rem;
+  padding: 1rem 4rem;
+  margin: 1rem;
+  gap: 2rem;
+  border-radius: 10px;
+  
 
+}
+.itenMusic {
+  background-color: #424242;
+  border-radius: 10px;
+  width: 16rem;
+  height: 17rem;
+
+}
+.mainText{
+  padding: 1rem;
 }
