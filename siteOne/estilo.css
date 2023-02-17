@@ -8,6 +8,7 @@ html,
 body {
   height: 100%;
   gap: 1rem;
+  font-family: Roboto, Helvetica, Calibri;
 }
 
 #R{
@@ -178,21 +179,36 @@ p {
 
 
 .mainMusic{
+  align-items: center;
   display: flex;
   padding: 1rem 4rem;
   margin: 1rem;
-  gap: 2rem;
-  border-radius: 10px;
-  
-
+  gap: 1rem;
+  border-radius: 12px;
 }
 .itenMusic {
   background-color: #424242;
   border-radius: 10px;
   width: 16rem;
-  height: 17rem;
+  height: 19rem;
 
 }
-.mainText{
-  padding: 1rem;
+
+.itenMusic img{
+  position: relative;
+  width: 12rem;
+  padding: 5px;
+  margin: 1rem 2rem;
+  margin-bottom: 5px;
+
+}
+
+.itenMusic p {
+  color: #fff;
+  margin-top: 0px;
+  background-color: #333;
+  border-radius: 10px;
+  width: 14rem;
+  margin: 1rem 1em;
+
 }
