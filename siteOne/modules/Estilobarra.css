@@ -19,9 +19,9 @@
 #element {
 
     border: 0;
-    color: white;
+    color: rgb(118, 118, 118);
     padding: 10px;
-    width: 9.5rem;
+    width: 9.8rem;
     background-color: transparent;
     display: inline-block;
     cursor: pointer;
@@ -61,3 +61,39 @@
     height: 75px;
 
 }
+
+/* Responsive */
+
+@media (max-width: 72rem) {
+    .bar-el{
+     
+        
+        gap: 0;
+ 
+    }
+}
+@media (max-width: 60.5rem) {
+    .bar-el{
+        width: 25rem;
+        padding: 0px;
+        gap: 0;
+      
+ 
+    }
+}
+@media (max-width: 55rem ) {
+    .bar-el{
+        width: 14rem;
+        padding: 0px;
+        gap: 0;
+    
+        
+    }
+    #element{
+        font-size: 15.5px;
+        margin: 0px;
+   
+        padding: 0;
+    }
+}
+
