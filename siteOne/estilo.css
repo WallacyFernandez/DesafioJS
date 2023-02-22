@@ -7,7 +7,7 @@
 html, body{height: 100%;}
 
 body{
-
+   background-color: #2e2e2e;
    font-family: roboto, arial, helvetica;
    
 }
@@ -157,39 +157,60 @@ p{
 }
 
 .barra{
-
-   
    background-color: #333;
-   padding: 30px;
    text-align: center;
-   font-size: 25px;
-   font-weight: bold;
-}
-#element, #barr {
-   padding: 0;
-   color: rgb(104, 103, 103);
-   font-size: 20px;
+   font-size: 6rem;
+   height: 7rem;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+ 
+ }
+ 
+ .bar-el{
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   gap: 30px;
+ }
+ #element{
+   border: 0;
+   color: #676565;
+   padding: 10px;
+   width: 9.5rem;
+   background-color: transparent;
+   display: inline-block;
+   cursor: pointer;
+   font-size: 22px;
+ 
+ }
+ #barr{
    text-decoration: none;
    list-style: none;
-   display: inline;
-   margin: 20px;
-   margin-left: 1.3rem;
-   cursor: pointer;
-  
-}
-#entrar{
+   color: #e4e4e4;
+   font-size: 3rem;
+   padding: 1rem;
+ }
+ 
+ #entrar{
    color: rgb(21, 21, 21);
-   display: inline;
    background-color: #fff;
-   padding: 20px;
-   border-radius: 40%;
-   cursor: pointer;
-}
-#element:hover{ 
+   font-size: 22px;
+   border-radius: 20%;
+   padding: 10px;
+   width: 7rem;
+   height: 70px;
+   font-weight: bold;
+ }
+ #element:hover{ 
    color: white;
    font-size: 23px;
-}
-
-#entrar:hover{
-   padding: 22px;
-}
+ 
+ }
+ 
+ #entrar:hover{
+  background-color: #dadada;
+ 
+  height: 75px;
+  
+ }
