@@ -1,0 +1,118 @@
+#R {
+
+    font-size: 10px;
+    position: absolute;
+    top: 0.5rem;
+    left: 7.5rem;
+
+}
+
+#play{
+
+    float: right;
+    width: 4rem;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+
+
+}
+
+#curtiu{
+
+    float: right;
+    width: 4rem;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+
+
+}
+
+#Img {
+
+
+
+    max-width: 10rem;
+    max-height: 4rem;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 2rem;
+    left: 1.5rem;
+}
+
+.sidebar {
+
+    float: left;
+    width: 400px;
+    padding: 10px 10px;
+    height: 100vh;
+    overflow-y: auto;
+    background-color: black;
+    overflow-x: hidden;
+    
+
+}
+
+.sidebar- {
+    padding-bottom: 200px;
+}
+
+.sidebar__menu {
+
+    font-style: impact;
+    margin: 20px;
+    color: rgb((190), 190, 190);
+    position: absolute;
+    top: 115px;
+    left: 5px;
+    font-size: 30px;
+
+}
+
+
+.sidebar__logo img {
+    max-width: 250px;
+    width: 100%;
+}
+
+
+#text {
+
+    float: right;
+    width: 4rem;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+
+}
+
+
+.sidebar__menu a {
+
+    color: rgb(190, 190, 190);
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+    width: 10rem;
+    align-items: center;
+    font-weight: bold;
+}
+
+.sidebar__menu a:hover {
+
+    color: #fff;
+
+}
+
+p {
+    font-size: 20px;
+}
+
+.sidebar__menu a.sidebar__menu__selecionado {
+    color: white;
+    background-color: rgb(80, 80, 80);
+    border-radius: 5px;
+}

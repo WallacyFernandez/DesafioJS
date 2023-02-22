@@ -1,4 +1,1 @@
-function carregar() {
-
-    
-}
+function carregar() {}

@@ -1,0 +1,63 @@
+.barra {
+    background-color: rgba(7, 7, 7, 0.68);
+    text-align: center;
+    font-size: 6rem;
+    height: 7rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.bar-el {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+}
+
+#element {
+
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 9.5rem;
+    background-color: transparent;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+#barr {
+    text-decoration: none;
+    list-style: none;
+    color: #e4e4e4;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+#entrar {
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    font-size: 22px;
+    border-radius: 20%;
+    padding: 10px;
+    width: 7rem;
+    height: 70px;
+    font-weight: bold;
+}
+
+#element:hover {
+    color: white;
+    font-size: 23px;
+
+}
+
+#entrar:hover {
+    background-color: #dadada;
+
+    height: 75px;
+
+}
