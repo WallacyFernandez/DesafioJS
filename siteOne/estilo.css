@@ -1,18 +1,21 @@
-*{
+* {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
 }
 
-html, body{height: 100%;}
-
-body{
-   background-color: #2e2e2e;
-   font-family: roboto, arial, helvetica;
-   
+html,
+body {
+   height: 100%;
 }
 
-h1{
+body {
+   background-color: #121212;
+   font-family: roboto, arial, helvetica;
+
+}
+
+h1 {
 
    font-style: italic;
    font-size: 35px;
@@ -21,196 +24,5 @@ h1{
    position: absolute;
    top: 46px;
    left: 110px;
-   
-}
-
-.mainMusic {
-   align-items: center;
-   display: flex; 
-   flex-wrap: wrap;
-   padding: 1rem 4rem;
-   margin: 1rem;
-   gap: 1rem;
-   border-radius: 12px;
- }
- .itenMusic {
-   background-color: #424242;
-   border-radius: 10px;
-   width: 16rem;
-   height: 19rem;
-   flex: 1 1 1rem;
- }
- 
- .itenMusic img {
-   position: relative;
-   width: 12rem;
-   padding: 5px;
-   margin: 1rem 2rem;
-   margin-bottom: 5px;
- }
- 
- .itenMusic p {
-   color: #fff;
-   margin-top: 0px;
-   background-color: #333;
-   border-radius: 10px;
-   width: 14rem;
-   margin: 1rem 1em;
- }
-
-
-
-
-
-#R{
-
-   font-size: 10px;
-   position: absolute;
-   top: 0.5rem;
-   left: 7.5rem;
-   
- }
-
-#Img{
-
-  
-   
-   max-width: 10rem;
-   max-height: 4rem;
-   width: auto;
-   height: auto;
-   position: absolute;
-   top: 2rem;
-   left: 1.5rem;
-}
-.sidebar{
-
-   float: left;
-   width: 400px;
-   padding: 10px 10px;
-   height: 100%;
-   overflow-y: auto;
-   background-color: black;
-   overflow-x: hidden;
-  
-}
-
-.sidebar-{
-   padding-bottom: 200px;
-}
-
-.sidebar__menu{
-
-   font-style: impact;
-   margin: 20px;
-   color: rgb((190), 190, 190);
-   position: absolute;
-   top: 115px;
-   left: 5px;
-   font-size: 30px;
-   
-}
-
-
-.sidebar__logo img{
-   max-width: 250px;
-   width: 100%;
-}
-
-
-#text{
-
-   float: right;
-   width: 4rem;
-   margin-top: 0.5rem;
-   margin-left: 1rem;
-   font-size: 1.5rem;
-   
-}
-
-
-.sidebar__menu a{
-
-   color: rgb(190, 190, 190);
-   text-decoration: none;
-   display: block;
-   padding: 10px;
-   cursor: pointer;
-   width: 10rem;
-   align-items: center;
-   font-weight: bold;
-}
-
-.sidebar__menu a:hover{
-
-color: #fff;
 
 }
-
-p{
-   font-size: 20px;
-}
-.sidebar__menu a.sidebar__menu__selecionado{
-   color: white;
-   background-color: rgb(80, 80, 80);
-   border-radius: 5px;
-}
-
-.barra{
-   background-color: #333;
-   text-align: center;
-   font-size: 6rem;
-   height: 7rem;
-   display: flex;
-   justify-content: flex-end;
-   align-items: center;
- 
- }
- 
- .bar-el{
-   align-items: center;
-   justify-content: center;
-   display: flex;
-   gap: 30px;
- }
- #element{
-   border: 0;
-   color: #676565;
-   padding: 10px;
-   width: 9.5rem;
-   background-color: transparent;
-   display: inline-block;
-   cursor: pointer;
-   font-size: 22px;
- 
- }
- #barr{
-   text-decoration: none;
-   list-style: none;
-   color: #e4e4e4;
-   font-size: 3rem;
-   padding: 1rem;
- }
- 
- #entrar{
-   color: rgb(21, 21, 21);
-   background-color: #fff;
-   font-size: 22px;
-   border-radius: 20%;
-   padding: 10px;
-   width: 7rem;
-   height: 70px;
-   font-weight: bold;
- }
- #element:hover{ 
-   color: white;
-   font-size: 23px;
- 
- }
- 
- #entrar:hover{
-  background-color: #dadada;
- 
-  height: 75px;
-  
- }
