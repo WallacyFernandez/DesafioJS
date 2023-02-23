@@ -1,9 +1,9 @@
 #R {
 
-    font-size: 10px;
+    font-size: 7px;
     position: absolute;
-    top: 0.5rem;
-    left: 7.5rem;
+    top: 0.35rem;
+    left: 5.25rem;
 
 }
 
@@ -13,21 +13,21 @@
 
 
 
-    max-width: 10rem;
-    max-height: 4rem;
+    max-width: 7rem;
+    max-height: 2.8rem;
     width: auto;
     height: auto;
     position: absolute;
-    top: 2rem;
-    left: 1.5rem;
+    top: 1.4rem;
+    left: 1.05rem;
 }
 
 .sidebar {
 
     float: left;
-    width: 400px;
-    padding: 10px 10px;
-    height: 100vh;
+    width: 280px;
+    padding: 7px 7px;
+    height: 110%;
     overflow-y: auto;
     background-color: rgb(0, 0, 0);
     overflow-x: hidden;
@@ -37,35 +37,35 @@
 }
 
 .sidebar- {
-    padding-bottom: 200px;
+    padding-bottom: 140px;
 }
 
 .sidebar__menu {
 
     font-style: impact;
-    margin: 20px;
+    margin: 14px;
     color: rgb((190), 190, 190);
     position: absolute;
-    top: 120px;
-    left: 13px;
-    font-size: 30px;
+    top: 84px;
+    left: 9.1px;
+    font-size: 18px;
 
 }
 
 
 .sidebar__logo img {
-    max-width: 250px;
-    width: 100%;
+    max-width: 175px;
+    width: 70%;
 }
 
 
 #text {
 
     float: right;
-    width: 6rem;
-    margin-top: 0.5rem;
-    margin-left: 1.5rem;
-    font-size: 1.4rem;  
+    width: 4.2rem;
+    margin-top: 0.35rem;
+    margin-left: 1.05rem;
+    font-size: 0.98rem;  
     
   
     
@@ -74,10 +74,10 @@
 #text2 {
 
     float: right;
-    width: 11rem;
-    margin-top: 0.5rem;
-    margin-left: 1.5rem;
-    font-size: 1.4rem;  
+    width: 7,7rem;
+    margin-top: 0.35rem;
+    margin-left: 1.05rem;
+    font-size: 0.98rem;  
     
    
     
@@ -86,7 +86,7 @@
 i{
 
     
-    width: 2rem;
+    width: 1.4rem;
     display: left;
 
 }
@@ -98,9 +98,9 @@ i{
     color: rgb(118, 118, 118);
     text-decoration: none;
     display: flex;
-    padding: 10px;
+    padding: 7px;
     cursor: pointer;
-    width: 11rem;
+    width: 7.7rem;
     align-items: center;
     font-weight: bold;
     text-align: left;
@@ -112,12 +112,12 @@ i{
 .sidebar__anexo {
 
     font-style: impact;
-    margin: 20px;
+    margin: 14px;
     color: rgb((190), 190, 190);
     position: absolute;
-    top: 22rem;
-    left: 20px;
-    font-size: 30px;
+    top: 15.4rem;
+    left: 14px;
+    font-size: 21px;
 
 }
 
@@ -129,9 +129,9 @@ i{
     color: rgb(118, 118, 118);
     text-decoration: none;
     display: flex;
-    padding: 3px;
+    padding: 2.1px;
     cursor: pointer;
-    width: 14.6rem;
+    width: 10.22rem;
     align-items: center;
     font-weight: bold;
     text-align: left;
@@ -155,21 +155,21 @@ i{
 }
 
 p {
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .sidebar__menu a.sidebar__menu__selecionado {
     color: white;
     background-color: rgb(80, 80, 80);
-    border-radius: 5px;
+    border-radius: 3.5px;
 }
 
 .sidebar__anexo2 a{
 
     color: rgb(118, 118, 118);
-    font-size: 1.2rem;
-    margin-top: 23rem;
-    width:5rem;
+    font-size: 0.84rem;
+    margin-top: 16.1rem;
+    width:3.5rem;
 }
 
 .sidebar__anexo2 a:hover {
