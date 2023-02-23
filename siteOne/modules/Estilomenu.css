@@ -179,3 +179,23 @@ p {
     
 
 }
+
+button{
+
+    background: transparent;
+}
+
+.button{
+
+    color: rgb(118, 118, 118);
+}
+#portu{
+    
+    float: right;
+    width: 13rem;
+    margin-top: 0.5rem;
+    margin-left: 1.5rem;
+    font-size: 1.4rem; 
+    background: blue;
+    color: rgb(255, 255, 255);
+}
