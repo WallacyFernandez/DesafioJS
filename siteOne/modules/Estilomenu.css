@@ -45,8 +45,8 @@
     margin: 20px;
     color: rgb((190), 190, 190);
     position: absolute;
-    top: 115px;
-    left: 5px;
+    top: 120px;
+    left: 13px;
     font-size: 30px;
 
 }
@@ -61,12 +61,24 @@
 #text {
 
     float: right;
+    width: 6rem;
+    margin-top: 0.5rem;
+    margin-left: 1.5rem;
+    font-size: 1.4rem;  
+    
+  
+    
+}
+
+#text2 {
+
+    float: right;
     width: 11rem;
     margin-top: 0.5rem;
-    margin-left: 2.5rem;
+    margin-left: 1.5rem;
     font-size: 1.4rem;  
-    justify-content: center;
     
+   
     
 }
 
@@ -78,12 +90,7 @@ i{
 
 }
 
-.sidebar__anexo{
 
-
-  
-    margin-top: 3rem;
-}
 
 .sidebar__menu a {
 
@@ -92,15 +99,55 @@ i{
     display: flex;
     padding: 10px;
     cursor: pointer;
-    width: 20rem;
+    width: 11rem;
     align-items: center;
     font-weight: bold;
     text-align: left;
-   
-   
+    
+    
 }
 
-.sidebar__menu, a:hover {
+
+.sidebar__anexo {
+
+    font-style: impact;
+    margin: 20px;
+    color: rgb((190), 190, 190);
+    position: absolute;
+    top: 22rem;
+    left: 20px;
+    font-size: 30px;
+
+}
+
+.sidebar__anexo a{
+
+   
+    
+   
+    color: rgb(118, 118, 118);
+    text-decoration: none;
+    display: flex;
+    padding: 3px;
+    cursor: pointer;
+    width: 14.6rem;
+    align-items: center;
+    font-weight: bold;
+    text-align: left;
+    
+    
+    
+}
+
+
+
+.sidebar__menu a:hover {
+
+    color: #fff;
+
+}
+
+.sidebar__anexo a:hover {
 
     color: #fff;
 
@@ -120,7 +167,8 @@ p {
 
     color: rgb(118, 118, 118);
     font-size: 1.2rem;
-    margin-top: 15rem;
+    margin-top: 23rem;
+    width:5rem;
 }
 
 .sidebar__anexo2 a:hover {
