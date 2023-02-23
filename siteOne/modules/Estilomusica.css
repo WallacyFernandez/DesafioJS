@@ -2,33 +2,60 @@
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-    padding: 1rem 4rem;
+    padding: 1rem 2rem;
     margin: 1rem;
     gap: 1rem;
     border-radius: 12px;
 }
 
-.itenMusic {
-    background-color: #424242;
+.itenMusic{
+    position: relative;
+    z-index: -2;
+    background-color: #1a1a1a;
     border-radius: 10px;
-    width: 16rem;
-    height: 19rem;
-    flex: 1 1 1rem;
+    width: 20rem;
+    height: 26rem;
+    
+    
 }
 
 .itenMusic img {
     position: relative;
-    width: 12rem;
+    z-index: -1;
+    width: 18rem;
     padding: 5px;
-    margin: 1rem 2rem;
-    margin-bottom: 5px;
+    margin: 1rem 0 0 1rem;
 }
 
-.itenMusic p {
+.itenMusic h3{
+ 
     color: #fff;
+    font-size: 25px;
     margin-top: 0px;
-    background-color: #333;
     border-radius: 10px;
     width: 14rem;
-    margin: 1rem 1em;
+    margin: 0 2rem;
+}
+
+.itenMusic p{
+    color: #fff;
+    margin-top: 0px;
+    border-radius: 10px;
+    width: 14rem;
+    margin: 0.5rem 2rem;
+}
+
+
+.lineTexmusic{
+    color: #fff;
+    font-size: 1.5rem;
+    width: 100%;
+    margin: 0 0 1rem 0.5rem;
+}
+
+.line2Texmusic{
+    color: #fff;
+    font-size: 1.5rem;
+    width: 100%;
+    margin: 2rem 0 1rem 0.5rem;
 }
