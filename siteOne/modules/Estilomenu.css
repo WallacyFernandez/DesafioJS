@@ -32,6 +32,7 @@
     background-color: rgb(0, 0, 0);
     overflow-x: hidden;
     position: fixed;
+    margin-top: -20px;
 
 }
 
