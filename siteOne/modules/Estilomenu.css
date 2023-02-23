@@ -7,27 +7,7 @@
 
 }
 
-#play{
 
-    float: right;
-    width: 4rem;
-    margin-top: 0.5rem;
-    margin-left: 1rem;
-    font-size: 1.5rem;
-
-
-}
-
-#curtiu{
-
-    float: right;
-    width: 4rem;
-    margin-top: 0.5rem;
-    margin-left: 1rem;
-    font-size: 1.5rem;
-
-
-}
 
 #Img {
 
@@ -49,7 +29,7 @@
     padding: 10px 10px;
     height: 100vh;
     overflow-y: auto;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     overflow-x: hidden;
     
 
@@ -81,24 +61,43 @@
 #text {
 
     float: right;
-    width: 4rem;
+    width: 11rem;
     margin-top: 0.5rem;
-    margin-left: 1rem;
-    font-size: 1.5rem;
+    margin-left: 2.5rem;
+    font-size: 1.4rem;  
+    justify-content: center;
+    
+    
+}
+
+i{
+
+    
+    width: 2rem;
+    display: left;
 
 }
 
+.sidebar__anexo{
+
+
+  
+    margin-top: 3rem;
+}
 
 .sidebar__menu, a {
 
-    color: rgb(190, 190, 190);
+    color: rgb(118, 118, 118);
     text-decoration: none;
-    display: block;
+    display: flex;
     padding: 10px;
     cursor: pointer;
-    width: 10rem;
+    width: 20rem;
     align-items: center;
     font-weight: bold;
+    text-align: left;
+   
+   
 }
 
 .sidebar__menu, a:hover {
@@ -115,4 +114,19 @@ p {
     color: white;
     background-color: rgb(80, 80, 80);
     border-radius: 5px;
+}
+
+.sidebar__anexo2 a{
+
+    color: rgb(118, 118, 118);
+    font-size: 1.2rem;
+    margin-top: 15rem;
+}
+
+.sidebar__anexo2 a:hover {
+
+    color: rgb(118, 118, 118);
+    text-decoration: underline;
+    
+
 }
