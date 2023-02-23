@@ -7,6 +7,28 @@
 
 }
 
+#play{
+
+    float: right;
+    width: 4rem;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+
+
+}
+
+#curtiu{
+
+    float: right;
+    width: 4rem;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+
+
+}
+
 #Img {
 
 
@@ -25,10 +47,11 @@
     float: left;
     width: 400px;
     padding: 10px 10px;
-    height: 100%;
+    height: 100vh;
     overflow-y: auto;
     background-color: black;
     overflow-x: hidden;
+    
 
 }
 
