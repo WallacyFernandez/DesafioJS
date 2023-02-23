@@ -1,14 +1,28 @@
 .mainMusic {
-    align-items: center;
+    display: inline;
+    padding: 25rem 25rem;
+    margin-left: 15%;
+    gap: 1rem;
+}
+
+
+.container1 {
     display: flex;
-    flex-wrap: wrap;
-    padding: 1rem 2rem;
-    margin: 1rem;
+    align-items: center;
+    gap: 1rem;
+    margin: 12rem 25rem 5rem 26rem;
+    border-radius: 12px;
+}
+.container2 {
+    display: flex;
+    margin: 6rem 5rem 5rem 26rem;
+    align-items: center;
     gap: 1rem;
     border-radius: 12px;
 }
 
 .itenMusic{
+
     position: relative;
     z-index: -2;
     background-color: #1a1a1a;
@@ -16,19 +30,19 @@
     width: 20rem;
     height: 26rem;
     
-    
 }
 
 .itenMusic img {
+
     position: relative;
     z-index: -1;
     width: 18rem;
     padding: 5px;
-    margin: 1rem 0 0 1rem;
+    margin: 1rem 1rem 0 1rem;
 }
 
 .itenMusic h3{
- 
+
     color: #fff;
     font-size: 25px;
     margin-top: 0px;
@@ -38,24 +52,10 @@
 }
 
 .itenMusic p{
+
     color: #fff;
     margin-top: 0px;
     border-radius: 10px;
     width: 14rem;
     margin: 0.5rem 2rem;
-}
-
-
-.lineTexmusic{
-    color: #fff;
-    font-size: 1.5rem;
-    width: 100%;
-    margin: 0 0 1rem 0.5rem;
-}
-
-.line2Texmusic{
-    color: #fff;
-    font-size: 1.5rem;
-    width: 100%;
-    margin: 2rem 0 1rem 0.5rem;
 }
