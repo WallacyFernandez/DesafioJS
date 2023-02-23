@@ -115,3 +115,18 @@ p {
     background-color: rgb(80, 80, 80);
     border-radius: 5px;
 }
+
+.sidebar__anexo2 a{
+
+    color: rgb(118, 118, 118);
+    font-size: 1.2rem;
+    margin-top: 15rem;
+}
+
+.sidebar__anexo2 a:hover {
+
+    color: rgb(118, 118, 118);
+    text-decoration: underline;
+    
+
+}
